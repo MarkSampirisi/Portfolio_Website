@@ -5,3 +5,6 @@
 li {
 	float:left;
 }
+body {
+    background-image: url('../img/background.png');
+}
