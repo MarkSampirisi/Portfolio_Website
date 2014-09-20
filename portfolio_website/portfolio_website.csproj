@@ -65,6 +65,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contactme.html" />
     <Content Include="css\foundation.css" />
     <Content Include="css\foundation.min.css" />
     <Content Include="css\myStyles.css" />

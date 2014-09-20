@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/myStyles.css" />
+    <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+    <!-- Logo -->
+    <div class="row">
+        <div class="large-5 columns">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo" width="400" />
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <!-- Navigation Bar -->
+    <div class="row">
+        <div class="large-12 medium-12 columns">
+            <div class="navBar">
+                <ul>
+                    <li><a href="index.html"><img src="img/homeButton.png" width="140" height="38" onmouseover="this.src = 'img/homeButton2.png'" onmouseout="    this.src = 'img/homeButton.png'" /></a></li>
+                    <li><a href="aboutme.html"><img src="img/aboutMeButton.png" width="140" height="38" onmouseover="this.src = 'img/aboutMeButton2.png'" onmouseout="    this.src = 'img/aboutMeButton.png'" /></a></li>
+                    <li><a href="projects.html"><img src="img/projectsButton.png" width="140" height="38" onmouseover="this.src = 'img/projectsButton2.png'" onmouseout="    this.src = 'img/projectsButton.png'" /></a></li>
+                    <li><a href="services.html"><img src="img/servicesButton.png" width="140" height="38" onmouseover="this.src = 'img/servicesButton2.png'" onmouseout="    this.src = 'img/servicesButton.png'" /></a></li>
+                    <li><a href="github.html"><img src="img/githubButton.png" width="140" height="38" onmouseover="this.src = 'img/githubButton2.png'" onmouseout="    this.src = 'img/githubButton.png'" /></a></li>
+                    <li><a href="contactme.html"><img src="img/contactMeButton2.png" width="140" height="38" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-push-4 columns">
+            <div class="panel">
+                <div class="row">
+                    <div class="medium-12 columns">
+                        <h1>
+                            Contact Me!
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="row">
+        <div class="large-12 columns">
+            <div class="form">
+                <div class="row">
+                    <div class="large-12 medium-12 columns">
+                        <form name="contactform" method="post" action="sendemail.php">
+                            <table width="450px">
+                                <tr>
+                                    <td valign="top">
+                                        <!-- Required -->
+                                        <label for="first_name">First Name *</label>
+                                    </td>
+                                    <td valign="top">
+                                        <input type="text" name="first_name" maxlength="50" size="30">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">
+                                        <!-- Required -->
+                                        <label for=" last_name">Last Name *</label>
+                                    </td>
+                                    <td valign="top">
+                                        <input type="text" name="last_name" maxlength="50" size="30">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">
+                                        <!-- Required -->
+                                        <label for="email">Email Address *</label>
+                                    </td>
+                                    <td valign="top">
+                                        <input type="text" name="email" maxlength="80" size="30">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">
+                                        <!-- Not Required -->
+                                        <label for="telephone">Telephone Number</label>
+                                    </td>
+                                    <td valign="top">
+                                        <input type="text" name="telephone" maxlength="30" size="30">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">
+                                        <!-- Required -->
+                                        <label for="comments">Comments *</label>
+                                    </td>
+                                    <td valign="top">
+                                        <textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align:center">
+                                        <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -42,10 +42,10 @@ body {
   color: white;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Myriad Pro", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  line-height: 150%;
+  line-height: 100%;
   position: relative;
   cursor: default; }
 

@@ -1,5 +1,8 @@
-﻿ul {
+﻿
+/*Styles for the navigation bar*/
+ul {
     list-style-type: none;
+    padding-top: 30px;
     
 }
 li {
@@ -7,4 +10,5 @@ li {
 }
 body {
     background-image: url('../img/background.png');
+    
 }
