@@ -42,7 +42,7 @@
 
     <!-- Navigation Bar -->
     <div class="row">
-        <div class="large-block-grid-12 large-centered small-centered columns">
+        <div class="large-block-grid-12 large-centered medium-centered small-centered columns">
             <div class="panel">
                 <p>
                     <a href="index.html"><img src="img/homeButton.png" width="140" height="38" onmouseover="this.src = 'img/homeButton2.png'" onmouseout="    this.src = 'img/homeButton.png'" /></a>
@@ -59,64 +59,84 @@
     <!--     -->
 
     <!-- Main Content -->
-    <div class="row">
-        <div class="large-8 push-1 columns"> <!-- Image Slider (with homeImage and pictures of upcoming projects)-->
-            <div class="imageSlider">
-                <ul data-orbit data-options="
+
+            <div class="row"> 
+                <div class="large-8 push-1 columns">  <!-- Image Slider (with homeImage and pictures of upcoming projects)-->
+                    <div class="imageSlider">
+                        <ul data-orbit data-options="
                   animation:slide;
                   pause_on_hover:true;
-                  animation_speed:1000;
+                  animation_speed:400;
                   navigation_arrows:true;
-                  bullets:false;">                  
-                    <li><img src="img/homeImage.png" alt="slide 1" width="580" height="397" /></li>  <!-- The home image also contains my website tagline ("Programming is an art.") -->  
-                    <li><img src="img/welcomeSign.png" alt="slide2" width="650" height="397" /></li>                    
-                    <li><img src="../assets/img/examples/launch-orbit.jpg" alt="slide 3" /></li>
-                </ul>
+                  bullets:false;">
+                            <li><img src="img/homeImage.png" alt="slide 1" width="580" height="397" /></li>  <!-- The home image also contains my website tagline ("Programming is an art.") -->
+                            <li><a href=""><img src="img/blogwebsite.png" alt="slide 2"  /></a>
+                                <div class="orbit-caption">
+                                    Check out this video game blog using PHP I made for my web programming class.
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/unitylogo.jpg" alt="slide 3"  />
+                                <div class="orbit-caption">
+                                    I made a small game with the unity engine!
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/mobileScreen.jpg" alt="slide 4"  /> <!-- Image courtesy of http://www.gocanvas.com -->
+                                <div class="orbit-caption">
+                                    What lies ahead in my development learning experience? Click here to see my projects page.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>      
-    </div>
-    <div class="row">
-        <div class="large-10 columns"> <!-- Mission Statement -->
-            <div class="content">
-            <p class="text-center">                
-                Hi, i'm <strong>Mark Sampirisi</strong>. I'm a junor software/web developer at Georgian College. This website exists because:<br />
-                <strong>1)</strong> I enjoy making content for the web!<br />
-                <strong>2)</strong> This is a good way for me to connect with friends and potential employers.<br />
-                <strong>3)</strong> I can show you some of the skills I have aquired and the projects that I am working on. <br />
-                <strong>Access my projects by scrolling through the images above or click the projects tab.</strong>           
-            </p>
-            </div>
-        </div>
-    </div> 
-    <!--     -->
 
-    <!-- Footer -->
-    <div class="row">
-        <div class="large-10 columns">
-            <div class="footer">
-                <p class="text-center">
-                    <small>Web Hosting Provided By: WebDesign4<br />
-                    Copyright© 2014. All Rights Reserved</small> <!-- Copyright statement -->
-                </p>
+            <div class="row">
+                <div class="large-10 columns">
+                    <!-- Mission Statement -->
+                    <div class="content">
+                        <p class="text-center">
+                            Hi, i'm <strong>Mark Sampirisi</strong>. I'm a junor software/web developer at Georgian College. This website exists because:<br />
+                            <strong>1)</strong> I enjoy making content for the web!<br />
+                            <strong>2)</strong> This is a good way for me to connect with friends and potential employers.<br />
+                            <strong>3)</strong> I can show you some of the skills I have aquired and the projects that I am working on. <br />
+                            <strong>Access my projects by scrolling through the images above or click the projects tab.</strong>
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <!--     -->
+            <!--      -->
 
-    <!-- Orbit Javascript -->
-    <script type="text/javascript"> 
-    $(document).foundation({
-        orbit: {
-            animation: 'slide',
-            timer_speed: 1000,
-            pause_on_hover: true,
-            animation_speed: 500,
-            navigation_arrows: true,
-            bullets: false
-        }
-    });
-    </script>
-    <!--     -->
-    
+            <!-- Footer -->
+            <div class="row">
+                <div class="large-10 columns">
+                    <div class="footer">
+                        <p class="text-center">
+                            <small>
+                                Web Hosting Provided By: WebDesign4<br />
+                                Copyright© 2014. All Rights Reserved
+                            </small> <!-- Copyright statement -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--     -->
+
+            <!-- Orbit Javascript -->
+            <script type="text/javascript">
+                $(document).foundation({
+                    orbit: {
+                        animation: 'slide',
+                        timer_speed: 4000,
+                        pause_on_hover: true,
+                        animation_speed: 400,
+                        navigation_arrows: true,
+                        bullets: false
+                    }
+                });
+            </script>
+            <!--     -->
+
 </body>
 </html>
