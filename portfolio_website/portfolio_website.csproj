@@ -71,6 +71,8 @@
     <Content Include="css\foundation.min.css" />
     <Content Include="css\myStyles.css" />
     <Content Include="css\normalize.css" />
+    <Content Include="emailsent.html" />
+    <Content Include="github.html" />
     <Content Include="humans.txt" />
     <Content Include="img\aboutMeButton.png" />
     <Content Include="img\aboutMeButton2.png" />

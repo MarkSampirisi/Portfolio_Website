@@ -1,49 +1,73 @@
-﻿<!DOCTYPE html>
+﻿<!-- Name: Mark Sampirisi
+     Student #: 200271985
+     Date: Sept 26, 2014 -->
+
+
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/myStyles.css" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/foundation.css" /> <!-- This website uses the Foundation framework -->
+    <link rel="stylesheet" href="css/myStyles.css" /> <!-- Some specific styling I have included -->
+    <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/modernizr.js"></script>
+    <script src="js/foundation/foundation.orbit.js"></script> <!-- This website uses an image slider provided by Orbit in Foundation -->
+    <script src="js/foundation.min.js"></script>
 </head>
 <body>
-    <!-- Logo -->
+    <!-- Logo/Keep Connected Panel -->
     <div class="row">
-        <div class="large-5 columns">
-            <div class="logo">
-                <img src="img/logo.png" alt="logo" width="400" />
-            </div>
+        <div class="header">
+            <ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-2 columns">
+                <li class="logo">
+                    <img src="img/logo.png" alt="logo" width="400" /> <!-- Company Logo -->
+                </li>
+                <li>
+                    <p class="social">
+                        Connect with me through:<br />
+                        <a href="https://twitter.com/Queensvillian"><img src="img/twitterButton.png" width="40" /></a>
+                        <a href="https://www.facebook.com/mark.sampirisi"><img src="img/facebookButton.png" width="40" /></a>
+                        <a href="skype:mark.sampirisi?userinfo"><img src="img/skypeButton.png" width="40" /></a>
+                        <a href="https://github.com/MarkSampirisi"><img src="img/gitButton.png" width="40" /></a>
+                        <!-- Social connection buttons obtained from http://www.flaticon.com/,
+                        these buttons link to my social media hubs -->
+                    </p>
+                </li>
+            </ul>
         </div>
     </div>
-    <!--  -->
+    <!--     -->
+
     <!-- Navigation Bar -->
     <div class="row">
-        <div class="large-12 medium-12 columns">
-            <div class="navBar">
-                <ul>
-                    <li><a href="index.html"><img src="img/homeButton.png" width="140" height="38" onmouseover="this.src = 'img/homeButton2.png'" onmouseout="    this.src = 'img/homeButton.png'" /></a></li>
-                    <li><a href="aboutme.html"><img src="img/aboutMeButton.png" width="140" height="38" onmouseover="this.src = 'img/aboutMeButton2.png'" onmouseout="    this.src = 'img/aboutMeButton.png'" /></a></li>
-                    <li><a href="projects.html"><img src="img/projectsButton.png" width="140" height="38" onmouseover="this.src = 'img/projectsButton2.png'" onmouseout="    this.src = 'img/projectsButton.png'" /></a></li>
-                    <li><a href="services.html"><img src="img/servicesButton.png" width="140" height="38" onmouseover="this.src = 'img/servicesButton2.png'" onmouseout="    this.src = 'img/servicesButton.png'" /></a></li>
-                    <li><a href="github.html"><img src="img/githubButton.png" width="140" height="38" onmouseover="this.src = 'img/githubButton2.png'" onmouseout="    this.src = 'img/githubButton.png'" /></a></li>
-                    <li><a href="contactme.html"><img src="img/contactMeButton2.png" width="140" height="38" /></a></li>
-                </ul>
+        <div class="large-block-grid-12  large-centered small-centered columns">
+            <div class="panel">
+                <p>
+                    <a href="index.html"><img src="img/homeButton.png" width="140" height="38" onmouseover="this.src = 'img/homeButton2.png'" onmouseout="    this.src = 'img/homeButton.png'" /></a>
+                    <a href="aboutme.html"><img src="img/aboutMeButton.png" width="140" height="38" onmouseover="this.src = 'img/aboutMeButton2.png'" onmouseout=" this.src='img/aboutMeButton.png'" /></a>
+                    <a href="projects.html"><img src="img/projectsButton.png" width="140" height="38" onmouseover="this.src = 'img/projectsButton2.png'" onmouseout="    this.src = 'img/projectsButton.png'" /> </a>  
+                    <a href="services.html"><img src="img/servicesButton.png" width="140" height="38" onmouseover="this.src = 'img/servicesButton2.png'" onmouseout="    this.src = 'img/servicesButton.png'" /></a>
+                    <a href="github.html"><img src="img/githubButton.png" width="140" height="38" onmouseover="this.src = 'img/githubButton2.png'" onmouseout="    this.src = 'img/githubButton.png'" /></a>
+                    <a href="contactme.html"><img src="img/contactMeButton2.png" width="140" height="38" onmouseover="this.src = 'img/contactMeButton2.png'" onmouseout="    this.src = 'img/contactMeButton.png'" /></a> <!-- contactMeButton2 remains active on the contactme page -->
+                    <!-- Buttons created using Adbobe Illustrator. They link to the other pages of my site -->
+                </p>
             </div>
         </div>
     </div>
+    <!--     -->
     <div class="row">
-        <div class="large-push-4 columns">
-            <div class="panel">
-                <div class="row">
-                    <div class="medium-12 columns">
-                        <h1>
-                            Contact Me!
-                        </h1>
-                    </div>
-                </div>
-            </div>
+        <div class="large-12 columns">
+          <h1>
+               Contact Me!
+          </h1>
+            <p>
+                <strong>Name: </strong> Mark Sampirisi<br />
+                <strong>Phone: </strong> 1-(905)-716-9448<br />
+                <strong>School Email: </strong>200271985@student.georgianc.on.ca<br />
+                <strong>Or use the form below!</strong>
+            </p>                         
         </div>
     </div>
 
@@ -54,7 +78,7 @@
                 <div class="row">
                     <div class="large-12 medium-12 columns">
                         <form name="contactform" method="post" action="sendemail.php">
-                            <table width="450px">
+                            <table width="450">
                                 <tr>
                                     <td valign="top">
                                         <!-- Required -->
@@ -112,6 +136,22 @@
         </div>
     </div>
 </div>
+
+    <!-- Footer -->
+    <div class="row">
+        <div class="large-10 columns">
+            <div class="footer">
+                <p class="text-center">
+                    <small>
+                        Web Hosting Provided By: WebDesign4<br />
+                        Copyright© 2014. All Rights Reserved
+                    </small>  <!-- Copyright statement -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--     -->
+
 
 </body>
 </html>
